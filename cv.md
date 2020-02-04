@@ -4,9 +4,9 @@
 
 *mobile:* +375(44) 754 62 95
 
-*email:* ihar.trymailau@gmail.com
+*email:* [ihar.trymailau@gmail.com](https://ihar.trymailau@gmail.com)
 
-*linkedin:* linkedin.com/in/ihar-trymailau/
+*linkedin:* [linkedin.com/in/ihar-trymailau/](https://www.linkedin.com/in/ihar-trymailau/)
 
 **Summary:**
 
@@ -18,14 +18,14 @@
 
 **Code examples:**
 
->Look my code on https://github.com/ArgonTrime
+>Look my code on [github.com/ArgonTrime](https://github.com/ArgonTrime)
 
 
 **Education:**
 
 * high school
 * self education HTML, CSS, JavaScript, on books and online resurses
-* course frontend developer (react, redux) https://it-incubator.by
+* course frontend developer (react, redux) [it-incubator.by](https://it-incubator.by)
 
 
 
