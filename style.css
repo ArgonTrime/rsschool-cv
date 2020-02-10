@@ -1,3 +1,19 @@
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 14px;
+}
+h1 {
+    margin-left: 50px;
+
+    font-size: 30px;
+    font-style: italic;
+}
+h2 {
+    color: #0D58A6;
+    font-style: italic;
+    font-size: 16px;
+}
+
 .wrapper {
     width: 1024px;
     margin: 0 auto;
@@ -14,9 +30,7 @@
     border-radius: 50%;
     border: 6px solid #0D58A6;
 }
-.header-name {
-}
 
-h2 {
-    color: #0D58A6;
+section {
+    margin-top: 30px;
 }
