@@ -1,1 +1,1 @@
-# rsschool-cv
+https://ArgonTrime.github.io/rsschool-cv/cv
