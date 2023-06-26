@@ -6,8 +6,9 @@
 
 **Phone:** +375 (44) 754-62-95
 **Email:** ihar.trymailau@gmail.com
-**Telegram:** [@ArgonTrime](https://t.me/ArgonTrime)
 **LinkedIn:** [linkedin.com/in/ihar-trymailau](https://www.linkedin.com/in/ihar-trymailau/)
+**Discord (rs-school):** Ihar Trymailau (@argontrime)
+**Telegram:** [@ArgonTrime](https://t.me/ArgonTrime)
 
 ## About me
 
@@ -23,9 +24,9 @@ You can see my code on [github](https://github.com/ArgonTrime) and [codewars](ht
 
 ## Courses
 
-- Computer operator - College of Business and Law (September 2009 - November 2010)
-- Front-end developer - [Redev](https://www.instagram.com/redev_courses/?hl=ru) (July 2020 - November 2020)
 - Front-end developer - [TeachMeSkills](https://teachmeskills.by/), [certificate](https://drive.google.com/file/d/14c6NfcTuW8i6DSmogRiEMwKnD6l5papn/view?usp=drive_link) (September 2022 - June 2023)
+- Front-end developer - [Redev](https://www.instagram.com/redev_courses/?hl=ru) (July 2020 - November 2020)
+- Computer operator - College of Business and Law (September 2009 - November 2010)
 
 ## Languages
 
