@@ -1,13 +1,11 @@
 # Ihar Trymailau
 
----
-
 ## Contacts
 
-**Phone:** +375 (44) 754-62-95
-**Email:** ihar.trymailau@gmail.com
-**LinkedIn:** [linkedin.com/in/ihar-trymailau](https://www.linkedin.com/in/ihar-trymailau/)
-**Discord (rs-school):** Ihar Trymailau (@argontrime)
+**Phone:** +375 (44) 754-62-95  
+**Email:** ihar.trymailau@gmail.com  
+**LinkedIn:** [linkedin.com/in/ihar-trymailau](https://www.linkedin.com/in/ihar-trymailau/)  
+**Discord (rs-school):** Ihar Trymailau (@argontrime)  
 **Telegram:** [@ArgonTrime](https://t.me/ArgonTrime)
 
 ## About me
