@@ -16,3 +16,18 @@ Hello everyone, I'm a beginner front-end developer. Having worked in various fie
 ## Skills
 
 HTML, CSS, CSS preprocessor, JavaScript, React, Redux, RTK, NPM, Basic knowledge in TypeScript, REST, GitHub, Figma.
+
+## Code example
+
+You can see my code on [github](https://github.com/ArgonTrime) and [codewars](https://www.codewars.com/users/ArgonTrime).
+
+## Courses
+
+- Computer operator - College of Business and Law (September 2009 - November 2010)
+- Front-end developer - [Redev](https://www.instagram.com/redev_courses/?hl=ru) (July 2020 - November 2020)
+- Front-end developer - [TeachMeSkills](https://teachmeskills.by/), [certificate](https://drive.google.com/file/d/14c6NfcTuW8i6DSmogRiEMwKnD6l5papn/view?usp=drive_link) (September 2022 - June 2023)
+
+## Languages
+
+- English - A1/Elementary, to improve my English, I use mobile applications and study front-end development tutorials
+- Russian - Native
