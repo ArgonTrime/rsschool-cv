@@ -5,11 +5,24 @@
 :root {
     --main-text-color: #091020;
     --accent-text-color: #4743E2;
+
     --main-font: 'Roboto Slab', serif;
 }
 html {
     font-family: var(--main-font);
+    font-weight: 300;
+    font-size: 16px;
+
     scroll-behavior: smooth;
+}
+h1 {
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--accent-text-color);
+}
+h2 {
+    font-weight: 500;
+    font-size: 24px;
 }
 
 .container {
@@ -17,9 +30,11 @@ html {
     margin: 0 auto;
 }
 
+/* header */
 .navigation__list {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
     list-style: none;
 }
@@ -29,9 +44,57 @@ html {
 .navigation__item a {
     color: var(--main-text-color);
     font-weight: 500;
+    font-size: 20px;
     text-decoration: none;
+    line-height: 100%;
 }
 .navigation__item a:hover {
     color: var(--accent-text-color);
     transition: all 0.5s ease;
+}
+
+/* secction greetings */
+.greetings {
+    padding: 20px 0;
+
+    background: url(../images/bg-keyboard.png) repeat-x top;
+    background-size: cover;
+}
+.greetings__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.greetings__info > p {
+    padding-bottom: 10px;
+}
+.greetings__info__contacts {
+    padding: 20px;
+
+    border-left: 2px solid var(--accent-text-color);
+}
+.greetings__avatar {
+    width: 200px;
+    height: 200px;
+
+    border: 3px solid var(--accent-text-color);
+    border-radius: 50%;
+    background: url(../images/avatar.jpg)  no-repeat center;
+    background-size: cover;
+}
+.greetings__info__list {
+
+    list-style: none;
+}
+.greetings__info__item {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    gap: 10px;
+}
+.greetings__info__item a {
+    text-decoration: none;
+    color: var(--accent-text-color);
+    font-weight: 400;
 }
