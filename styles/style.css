@@ -67,10 +67,10 @@ h2 {
     gap: 20px;
 }
 .greetings__info > p {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 .greetings__info__contacts {
-    padding: 20px;
+    padding-left: 20px;
 
     border-left: 2px solid var(--accent-text-color);
 }
@@ -97,4 +97,40 @@ h2 {
     text-decoration: none;
     color: var(--accent-text-color);
     font-weight: 400;
+}
+
+/* section about me */
+.about {
+    padding: 20px;
+}
+.about__container {
+    padding-left: 20px;
+    border-left: 2px solid var(--accent-text-color);
+}
+.about__container h2 {
+    padding-bottom: 10px;
+}
+
+/* section skills */
+.skills {
+    padding: 20px;
+}
+.skills__container {
+    padding-left: 20px;
+    border-left: 2px solid var(--accent-text-color);
+}
+.skills__container h2 {
+    padding-bottom: 10px;
+}
+.skills__list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+    list-style: none;
+}
+.skills__item {
+    background-color: var(--accent-text-color);
+    color: #fff;
+    padding: 5px;
 }
