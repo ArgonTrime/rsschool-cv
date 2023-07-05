@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --main-text-color: #091020;
+    --accent-text-color: #4743E2;
+    --main-font: 'Roboto Slab', serif;
+}
+html {
+    font-family: var(--main-font);
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navigation__list {
+    display: flex;
+    justify-content: center;
+
+    list-style: none;
+}
+.navigation__item {
+    padding: 20px 20px;
+}
+.navigation__item a {
+    color: var(--main-text-color);
+    font-weight: 500;
+    text-decoration: none;
+}
+.navigation__item a:hover {
+    color: var(--accent-text-color);
+    transition: all 0.5s ease;
+}
