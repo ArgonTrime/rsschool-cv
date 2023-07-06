@@ -134,3 +134,43 @@ h2 {
     color: #fff;
     padding: 5px;
 }
+
+/* section courses */
+.courses {
+    padding: 20px;
+}
+.courses__container {
+    padding-left: 20px;
+    border-left: 2px solid var(--accent-text-color);
+}
+.courses__container h2 {
+    padding-bottom: 10px;
+}
+.courses__list {
+    list-style: none;
+}
+.courses__item:not(:last-child) {
+    padding-bottom: 10px;
+}
+.courses__item > p {
+    font-weight: 400;
+}
+.courses__item a {
+    text-decoration: none;
+    color: var(--accent-text-color);
+}
+.course__list {
+    list-style: square;
+    padding-left: 30px;
+}
+.course__item {
+    padding: 5px;
+
+    color: var(--accent-text-color);
+}
+.course__item a {
+    font-weight: 400;
+}
+.course__item p {
+    color: var(--main-text-color);
+}
