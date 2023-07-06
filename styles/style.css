@@ -174,3 +174,18 @@ h2 {
 .course__item p {
     color: var(--main-text-color);
 }
+
+/* section languages */
+.languages {
+    padding: 20px;
+}
+.languages__container {
+    padding-left: 20px;
+    border-left: 2px solid var(--accent-text-color);
+}
+.languages__container h2 {
+    padding-bottom: 10px;
+}
+.languages__list {
+    list-style: none;
+}
