@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Ihar-Trymailau</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <head>
+    <header>
         <div class="container">
             <nav class="navigation">
                 <ul class="navigation__list">
@@ -21,7 +22,7 @@
                 </ul>
             </nav>
         </div>
-    </head>
+    </header>
     <main>
         <section class="greetings">
             <div class="container">
@@ -96,13 +97,29 @@
                 </div>
             </div>
         </section>
+        <section class="code">
+            <div class="container">
+                <div class="code__container">
+                    <h2 id="code">Code example</h2>
+                    <p>Write a function that takes a string and outputs a strings of 1's and 0's where vowels become 1's and non-vowels become 0's.</p>
+                    <code>
+                        <span class="code__keyword">function</span> <span class="code__text">vowelOne</span>(<span class="code__text">string</span>){<br>
+                        <span class="code__tab"></span><span class="code__keyword">return</span> [<span class="code__text">...string</span>].<span class="code__text">reduce</span>((<span class="code__text">res</span>, <span class="code__text">symbol</span>) => {<br>
+                        <span class="code__tab code__tab_double"></span><span class="code__text">symbol</span>.<span class="code__text">match</span>(<span class="code__string">/[aeiou]/i</span>) === <span class="code__value">null</span> ? <span class="code__text">res</span> += <span class="code__value">0</span> : <span class="code__text">res</span> += <span class="code__value">1</span>;<br>
+                        <span class="code__tab"></span><span class="code__keyword">return</span> <span class="code__text">res</span>;<br>
+                        <span class="code__tab"></span>}, <span class="code__string">''</span>);<br>
+                        }
+                    </code>
+                </div>
+            </div>
+        </section>
         <section class="courses">
             <div class="container">
                 <div class="courses__container">
                     <h2 id="courses">Courses</h2>
                     <ul class="courses__list">
                         <li class="courses__item">
-                            <p>Front-end developer &#8211 <a href="https://teachmeskills.by/">TeachMeSkills</a>, <a href="https://drive.google.com/file/d/14c6NfcTuW8i6DSmogRiEMwKnD6l5papn/view">certificate</a> (September 2022 &#8212 June 2023)</p>
+                            <p>Front-end developer &#8211; <a href="https://teachmeskills.by/">TeachMeSkills</a>, <a href="https://drive.google.com/file/d/14c6NfcTuW8i6DSmogRiEMwKnD6l5papn/view">certificate</a> (September 2022 &#8212; June 2023)</p>
                             <ul class="course__list">
                                 <li class="course__item">
                                     <p>Creating a landing page using HTML, CSS, SCSS with responsive layout (Flex, Grid, Media query). <a href="https://github.com/ArgonTrime/mogo">github.com/ArgonTrime/mogo</a></p>
@@ -116,10 +133,10 @@
                             </ul>
                         </li>
                         <li class="courses__item">
-                            <p>Front-end developer &#8211 <a href="https://www.instagram.com/redev_courses/?hl=ru">Redev</a> (July 2020 &#8212 November 2020)</p>
+                            <p>Front-end developer &#8211; <a href="https://www.instagram.com/redev_courses/?hl=ru">Redev</a> (July 2020 &#8212; November 2020)</p>
                         </li>
                         <li class="courses__item">
-                            <p>Computer operator &#8211 College of Business and Law (September 2009 &#8212 November 2010)</p>
+                            <p>Computer operator &#8211; College of Business and Law (September 2009 &#8212; November 2010)</p>
                         </li>
                     </ul>
                 </div>
@@ -131,10 +148,10 @@
                     <h2 id="languages">Languages</h2>
                     <ul class="languages__list">
                         <li class="languages__item">
-                            English &#8211 A1/Elementary, to improve my English, I use mobile applications and study front-end development tutorials
+                            English &#8211; A1/Elementary, to improve my English, I use mobile applications and study front-end development tutorials
                         </li>
                         <li class="languages__item">
-                            Russian &#8211 Native
+                            Russian &#8211; Native
                         </li>
                     </ul>
                 </div>

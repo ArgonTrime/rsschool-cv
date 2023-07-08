@@ -135,6 +135,45 @@ h2 {
     padding: 5px;
 }
 
+/* section code */
+.code {
+    padding: 20px;
+}
+.code__container {
+    padding-left: 20px;
+    border-left: 2px solid var(--accent-text-color);
+}
+.code__container h2 {
+    padding-bottom: 10px;
+}
+.code code {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 400;
+    background-color: #f0f0f0;
+}
+.code__tab {
+    margin-right: 32px;
+}
+.code__tab_double {
+    margin-right: 64px;
+}
+.code__keyword {
+    color: #8b57d9;
+}
+.code__string {
+    color: #4ab054;
+}
+.code__text {
+    color: #5483c4;
+}
+.code__value {
+    color: #db9d21;
+}
+
 /* section courses */
 .courses {
     padding: 20px;
