@@ -40,22 +40,28 @@ h2 {
 }
 .navigation__item {
     padding: 20px 20px;
+
+    transition: all 0.5s ease;
 }
 .navigation__item a {
     color: var(--main-text-color);
     font-weight: 500;
     font-size: 20px;
     text-decoration: none;
-    line-height: 100%;
+    transition: all 0.5s ease;
 }
-.navigation__item a:hover {
-    color: var(--accent-text-color);
+.navigation__item:hover {
+    background-color: var(--accent-text-color);
+    transition: all 0.5s ease;
+}
+.navigation__item:hover a {
+    color: #fff;
     transition: all 0.5s ease;
 }
 
 /* secction greetings */
 .greetings {
-    padding: 20px 0;
+    padding: 50px 0;
     margin-bottom: 50px;
 
     background: url(../images/bg-keyboard.png) repeat-x top;
@@ -63,9 +69,21 @@ h2 {
 }
 .greetings__container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+.greetings__container_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.greetings__name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .greetings__info > p {
     padding-bottom: 20px;
@@ -246,4 +264,19 @@ h2 {
     flex-wrap: wrap;
 
     font-weight: 400;
+}
+
+/* media query */
+@media screen and (max-width: 720px) {
+    .navigation__item {
+        padding: 10px;
+    }
+    .navigation__item a {
+        font-size: 18px;
+    }
+
+    .greetings__container_info {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
